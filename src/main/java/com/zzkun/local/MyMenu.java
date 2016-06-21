@@ -45,19 +45,19 @@ public class MyMenu {
         sub1.setKey("sub1");
         sub1.setName("每日领红包");
         sub1.setType(MenuType.VIEW);
-        sub1.setUrl(getOAuthURL("http://746f98ac.ngrok.natapp.cn/WSWeiXin/redbag/day"));
+        sub1.setUrl(getOAuthURL("http://2266881.ngrok.natapp.cn/WSWeiXin1/redbag/day"));
         ///
         MenuButton sub2 = new MenuButton();
         sub2.setKey("sub2");
         sub2.setName("查看红包");
         sub2.setType(MenuType.VIEW);
-        sub2.setUrl(getOAuthURL("http://746f98ac.ngrok.natapp.cn/WSWeiXin/user/detail"));
+        sub2.setUrl(getOAuthURL("http://2266881.ngrok.natapp.cn/WSWeiXin1/user/detail"));
         ///
         MenuButton sub3 = new MenuButton();
         sub3.setKey("sub3");
         sub3.setName("红包消费");
         sub3.setType(MenuType.VIEW);
-        sub3.setUrl(getOAuthURL("http://746f98ac.ngrok.natapp.cn/WSWeiXin/redbag/use"));
+        sub3.setUrl(getOAuthURL("http://2266881.ngrok.natapp.cn/WSWeiXin1/redbag/use"));
         ///
         main1.setSubButton(Arrays.asList(sub1, sub2, sub3));
 
